@@ -254,6 +254,12 @@ export interface RegionDropdownProps<T = Element> {
    * Default value: []
    */
   customOptions?: string[];
+
+  /**
+   * Appends a styling to the region dropdown,
+   *
+   */
+  style?: React.CSSProperties;
 }
 
 export class RegionDropdown extends React.Component<RegionDropdownProps> {}
